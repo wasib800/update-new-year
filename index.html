@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;800&family=Roboto:wght@300;400;700;900&display=swap"
         rel="stylesheet">
@@ -16,7 +18,7 @@
 
 <body>
     <section>
-        <div class="nav-container">
+        <!-- <div class="nav-container">
             <div class="left-nav">
                 <img src="/images/icons/twitter.png" alt="" srcset="">
             </div>
@@ -28,7 +30,34 @@
                 </ul>
                 <button class="btn-1">Log-in</button>
             </div>
-        </div>
+        </div> -->
+        <!-- practice bootstrap toogle button -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bg-secondery">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact-us</a>
+                  </li>
+                </ul>  
+              </div> 
+              <button class="btn btn-warning">Log-in</button>
+            </div>
+           
+          </nav>
+        <!-- header container -->
         <header class="header-container">
             <div class="header-title">
                 <h1 class="frist-title">All Thinks Are <br>
@@ -37,7 +66,7 @@
                 <p class="frist-description">There are many variations of passages of Lorem Ipsum <br>
                     available, but the majority have suffered alteration in some <br>
                     form, by injected humour, or randomised words</p>
-                <button class="btn">Contact us</button>
+                <button class="btn btn-warning">Contact us</button>
 
             </div>
         </header>
@@ -93,7 +122,7 @@
         <div class="fourth-part-container">
             <h1 class="fourth-title">Awlays keep a positive <br>
                 mindset</h1>
-            <button class="btn">Call Now</button>
+            <button class="btn btn-warning">Call Now</button>
         </div>
     </main>
     <footer>
@@ -111,11 +140,14 @@
                 <div class="subscribe">
                     <h1>Subscribe</h1>
                     <input class="input-bitton" type="" placeholder="enter your name"> <br>
-                    <button class="btn">Subscribe</button>
+                    <button class="btn btn-warning">Subscribe</button>
                 </div>
             </div>
         </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
